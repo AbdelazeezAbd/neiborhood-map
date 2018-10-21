@@ -25,4 +25,4 @@ this project is simple web page contains neighborhood map
    10.Google Maps Time Zone API
 
 6. Go To credintials, Select create Credintials, Select API Key, name it anything
-7. copy API Key and replace it with APIKEY in the end of the code
+7. copy API Key and replace it with my API key in the end of the code
