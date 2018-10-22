@@ -154,10 +154,10 @@ function initMap() {
      });
      // Two event listeners - one for mouseover, one for mouseout,
      // to change the colors back and forth.
-     marker.addListener('mouseover', function() {
+     marker.addListener('click', function() {
        this.setIcon(highlightedIcon);
      });
-     marker.addListener('mouseout', function() {
+     marker.addListener('click', function() {
        this.setIcon(defaultIcon);
      });
    }
