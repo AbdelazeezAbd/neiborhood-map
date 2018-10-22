@@ -583,6 +583,6 @@ function initMap() {
     });
   }
 
-function errorHandling() {
+function errorMessage() {
 	alert("Google Maps has failed to load. Please check your internet connection and try again.");
 }
