@@ -11,18 +11,9 @@ this project is simple web page contains neighborhood map
 1. download this repository
 2. Go to [Google developers](https://console.developers.google.com) and sign in to your Google account
 3. create a new project
-4. click on the library then click on "Google Maps JavaScript API" and enable it
-5. repeat 4th step for the following:
-   1.Google maps roads API
-   2.Google Static maps API
-   3.Google Street view image API
-   4.Google Places API Web service
-   5.Google maps Geocoding API
-   6.Google Maps Directions API
-   7.Google Maps Distance Matrix API
-   8.Google Maps Geolocation API
-   9.Google Maps Elevation API
-   10.Google Maps Time Zone API
-
 6. Go To credintials, Select create Credintials, Select API Key, name it anything
 7. copy API Key and replace it with my API key in the end of the code
+
+8. go to [FourSquare Developers](https://developer.foursquare.com/)
+9. create a new account and new project
+10. replace client_id and client_secret with yours in app.js file
