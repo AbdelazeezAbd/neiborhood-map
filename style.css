@@ -1,0 +1,40 @@
+.program {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.bar {
+    order: 1;
+    flex-grow: 1;
+    background-image: linear-gradient(black, red);
+}
+
+.map {
+    order: 2;
+    flex-grow: 10;
+    height: 700px;
+}
+
+#search {
+    margin: 10px 0px 10px 5px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+#go {
+    background-color: lightgreen;
+    margin: 0px 0px 0px 5px;
+    height: 30px;
+    width: 250px;
+}
+
+@media only screen and (max-device-width : 959px), only screen and (max-width : 959px)  {
+
+    .program {
+        flex-direction: column;
+    }
+}
