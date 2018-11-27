@@ -33,7 +33,7 @@ function setMarkers(position) {
 
 
 
-    // recognizing info window content using data that we got it from google API and flickr API
+    // recognizing info window content using data that we got it from flickr API
     this.infowindowcontent = '<h4 class="infowindowhead">' + self.title + '</h4>' +
     '<img src=' + self.imgURL + '>';
 
