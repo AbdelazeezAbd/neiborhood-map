@@ -1,7 +1,5 @@
 // general variables
 var map;
-var clientID;
-var clientSecret
 function setMarkers(position) {
     var self = this;
     this.markName = position.name;
