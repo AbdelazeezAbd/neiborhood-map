@@ -6,6 +6,7 @@ this project is simple web page contains istanbul city map
 2. CSS
 3. JavaScript
 4. Google maps API
+5. Flickr API
 
 ## Running steps
 Only Run index.html file
